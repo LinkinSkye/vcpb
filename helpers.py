@@ -73,8 +73,8 @@ def generate_image(
     thumbnail.paste(text, (0, 0), text)
     font = ImageFont.truetype("assets/ttf/font.ttf", 100)
     image_editable = ImageDraw.Draw(thumbnail)
-    image_editable.text((66, 303), title, (240, 240, 240), font=font)
-    image_editable.text((216, 425), requester, (240, 240, 240), font=font)
+    image_editable.text((66, 303), title, (230, 230, 230), font=font)
+    image_editable.text((216, 425), requester, (230, 230, 230), font=font)
     thumbnail.save(out)
     return out
 
